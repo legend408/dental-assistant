@@ -17,3 +17,7 @@ dist/
 
 # 密钥和敏感信息，绝对不能进 Git
 .env
+
+# SQLite 数据库文件（生成物 + 含患者数据，不进 Git）
+*.db
+*.sqlite3
